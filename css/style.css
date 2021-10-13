@@ -1,0 +1,422 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/*
+font-family: 'Poppins', sans-serif;
+*/
+
+h1,h2,h3,h4,h5,h6,p,a,span,input{
+	font-family: 'Poppins', sans-serif;
+}
+/**********
+header section
+***********/
+header{
+	position: absolute;
+	width: 100%;
+	background: rgba(0,0,0,0.2)
+}
+.nav-link{
+	font-size: 26px;
+	color: white!important;
+}
+.nav-item{
+	margin: 0px 17px;
+}
+.form-control {
+    padding: 0.8rem .75rem!important;
+    color: white!important;
+    background-color: #fcc302!important;
+    border: 1px solid #fcc302!important;
+  }
+
+  .input-group-text {
+    padding: .375rem 1.25rem;
+    color: white;
+    background-color: #00bec9;
+    border: 1px solid #00bec9;
+    border-radius: none;
+}
+/*******************
+banner section
+********************/
+.banner{
+	width: 100%;
+	background-color: #fcc302;
+	padding: 92px 0px;
+	height: 110vh;
+}
+.banner h1{
+	color: white;
+	font-size: 69px;
+	padding-top: 70px;
+	width: 111%;
+}
+.banner p {
+	color: white;
+	font-size: 30px;
+	margin: 35px 0px;
+    width: 117%;
+}
+
+.btn-primary{
+    color: #fff;
+    background-color: #00bec9!important;
+    border-color: #00bec9 !important;
+}
+
+/*******************
+service section
+********************/
+
+.service-1{
+	width: 100%;
+	background-color: white;
+	padding: 80px 0px;
+}
+.service-1 h1{
+	color: black;
+	font-size: 50px;
+	padding-top: 70px;
+}
+.service-1 p{
+	color: black;
+	font-size: 30px;
+	margin: 35px 0px;
+}
+.service-1 .btn-danger{
+	background-color: #fcc302!important;
+	border-color: #fcc302!important;
+}
+
+.service-video{
+	position: relative;
+	z-index: 1;
+}
+.shadow{
+	position: absolute;
+	top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(252,195,2,0.6);
+}
+.box{
+	background: #fcc302;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    bottom: -36px;
+    left: -42px;
+    z-index: -1;
+}
+.video-icon{
+
+}
+.video-icon i{
+	height: 70px;
+    width: 70px;
+    background: red;
+    position: absolute;
+    left: 45%;
+    top: 44%;
+    text-align: center;
+    line-height: 70px;
+    color: #fcc302;
+    border-radius: 100%;
+    background: white;
+}
+
+/*******************
+ title section
+********************/
+
+.title{
+	background-color: #fcc302;
+}
+
+.title-des{
+	text-align: center;
+    color: white;
+    padding: 44px 0px;
+}
+.title-des h1{
+	font-size: 50px;
+}
+.title-des p{
+	font-size: 20px;
+    width: 409px;
+    margin-left: 345px;
+}
+.doctor{
+
+}
+.doctor-des{
+	text-align: center;
+    color: white;
+    padding: 26px 0px;
+}
+.doctor-des h1{
+  font-size: 25px;
+}
+.doctor-des p{
+	font-size: 15px;
+    width: 59%;
+    margin-left: 75px;
+}
+
+/*servic2*/
+
+.box-two {
+    background: #fcc302;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    z-index: -1;
+	right: -24px!important;
+    top: 252px !important;
+}
+
+.service-1 h1 {
+    color: black;
+    font-size: 50px;
+    padding-top: 70px;
+    text-align: right!important;
+}
+.service-1 p {
+    color: black;
+    font-size: 30px;
+    margin: 35px 0px;
+    text-align: right!important;
+}
+
+.service-1 .btn-danger {
+    margin-left: 410px;
+    background-color: #fcc302!important;
+    border-color: #fcc302!important;
+}
+
+/*title section two*/
+
+.dog-des{
+	text-align: center;
+    padding: 30px 0px;
+}
+.dog-des p span{
+	font-size: 26px;
+    color: white;
+    margin-right: 14px;
+}
+.dog-des .btn{
+	padding: 6px 30px;
+}
+.dog-des .btn-danger{
+	color: #fff;
+    background-color: #00bec9;
+    border-color: #00bec9;
+    font-size: 25px;
+}
+.title-one{
+	background-color: white;
+}
+.title-description{
+	width: 100%;
+    padding: 60px 0px;
+    text-align: center;
+}
+
+.title-description h1{
+	font-size: 50px;
+	font-weight:900;
+}
+
+.title-description p{
+	font-size: 20px;
+    width: 409px;
+    margin-left: 345px;
+}
+}
+.title-description h4{
+
+}
+.title-description p{
+	
+}
+.doctor-description{
+	text-align: center;
+    width: 100%;
+    padding: 25px 0px;
+}
+
+.doctor-description h4{
+	font-size: 25px;
+    font-weight: 600;
+}
+.doctor-description p{
+	font-size: 20px;
+    font-weight: 300;
+}
+.doctor-description .icon{
+
+}
+
+.doctor-description .icon ul li{
+	list-style: none;
+    display: inline-block;
+    margin-right: 18px;
+   
+    background-color: #fcc302;
+    border-radius: 119%;
+    padding: 5px 9px;
+
+}
+
+
+.doctor-description .icon ul li a{
+	    color: white;
+}
+
+.doctor-description .icon .fa{
+	color: white!important;
+	
+}
+
+/*history section*/
+
+.history{
+	width: 100%;
+	background-image: url(../image/bg.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 70vh;
+	position: relative;
+}
+
+.overlay{
+	position: absolute;
+	top:0; 
+	bottom: 0;
+	left: 0;
+	right: 0;
+	 background: rgba(252,195,2,0.6);
+}
+.history .row{
+	padding: 130px 0px!important;
+    margin-left: 92px!important;
+}
+.history .col-md-4 h2{
+	margin-top: 22px;
+    color: white;
+}
+.history .col-md-4 h3{
+	    font-size: 33px;
+    color: white;
+}
+.cd{
+	text-align: center;
+}
+
+/*recebt section*/
+
+.recent{
+
+}
+.recent .post{
+	text-align: center;
+    padding: 40px 0px;
+}
+
+.recent .post h1{
+
+}
+.recent .post p{
+
+}
+
+.card  {
+        border: 0px solid rgba(0,0,0,.125);
+}
+.card-title{
+	font-weight: 700;
+    font-size: 25px;
+}
+.feb{
+	color: #0000ff;
+    font-size: 20px
+}
+.card-text{
+
+}
+.card-body h4{
+	color: #0000ff;
+}
+.deee{
+	padding-bottom: 62px;
+	margin-left: 80px;
+}
+
+
+/*footer section */
+
+
+.footer{
+	width: 100%;
+    background: black;
+    padding: 70px 0px;
+}
+
+.about{
+
+}
+.about h1{
+	padding-left: 27px;
+    color: wheat;
+    font-weight: bold;
+}
+.about ul li{
+	list-style: none;
+
+}
+.about ul li a{
+	color: white;
+}
+.last {
+
+}
+.last h1{
+    text-align: right;
+    color: white;
+    font-weight: bold;
+}
+.last p{
+	text-align: right;
+    color: white;
+    font-weight: 300;
+}
+.icon-two{
+	text-align: right;
+    letter-spacing: 2px;
+    padding-top: 25px;
+}
+
+.icon-two ul li{
+	list-style: none;
+    display: inline;
+    border-radius: 50px;
+    padding: 4px 8px;
+    background-color: white;
+}
+.icon-two ul li a{
+	    color: #212529;
+}
